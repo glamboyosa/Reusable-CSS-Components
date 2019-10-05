@@ -8,7 +8,7 @@ A new folder is created for every code snippet. A HTML file and a CSS file. Each
 
 ## Use with frameworks or libraries
 
-I believe use with frameworks or libraries is also pretty straightforward as most libraries or frameworks use vanilla CSS as default so it really isn't that difficult to adapt this for use in your preferred framework or library.
+I believe use with frameworks or libraries is pretty straightforward as most libraries or frameworks use vanilla CSS as default so it really isn't that difficult to adapt this for use in your preferred framework or library.
 
 ## Contribution
 
