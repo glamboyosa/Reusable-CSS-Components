@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.center {
+    margin-top: 25%;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.modal {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem .5rem rgb(0, 0, 0, 0.5);
+}
