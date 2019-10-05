@@ -1,6 +1,6 @@
 # Reusable CSS Components
 
-This is a collection of vanilla CSS animations, transitions, hover effects, components etc that I find useful and use often and believe would be useful to other frontend developers out there. It is done in vanilla CSS an not SCSS simply because people might not know or understand SASS.
+This is a collection of vanilla CSS animations, transitions, hover effects, components etc that I find useful and use often and believe would be useful to other frontend developers out there. It is done in vanilla CSS and not SCSS simply because people might not know or understand SASS.
 
 ## How it works
 
