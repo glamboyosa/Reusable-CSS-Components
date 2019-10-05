@@ -13,4 +13,5 @@ I believe use with frameworks or libraries is also pretty straightforward as mos
 ## Contribution
 
 To contribute open a PR and simply follow the guidelines in the "How it works" section.
+<br/>
 Created with ❤ by Timothy Ogbemudia.
