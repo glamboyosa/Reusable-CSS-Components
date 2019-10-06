@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+p {
+    font-size: inherit;
+    margin-top: 25%;
+}
+
+.flex {
+    display: flex;
+}
+
+.shown-div {
+
+    margin: 2rem 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.shown-div .img {
+    object-fit: cover;
+    height: 100%;
+    width: 90%;
+    transition: all .3s;
+}
+
+.shown-div.img:hover {
+    transform: scale(1.1);
+}
+
+.shown-div .hidden-div {
+    opacity: 0;
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    transition: all .4s;
+    background-color: #000;
+    ;
+}
+
+.shown-div:hover .hidden-div {
+    opacity: 1;
+}
