@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fluid-grid-container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+[class^="col-"] {
+    float: left;
+    background-color: red;
+    ;
+}
+
+[class^="col-"]:not(:last-child) {
+    margin-right: 2rem;
+
+}
+
+.col-span-1-of-2 {
+    width: calc((100% - 2rem) /2);
+}
+
+.col-span-1-of-3 {
+    width: calc((100% - 2 * 2rem)/3);
+}
+
+.col-spa6n-2-of-3 {
+    width: calc(2 * (100% - 2 * 2rem)/3);
+}
+
+.col-span-1-of-4 {
+    width: calc((100% - 3 * 2rem)/4);
+}
+
+.col-span-2-of-4 {
+    width: calc(2 * (100% - 3 * 2rem)/4);
+}
+
+.col-span-3-of-4 {
+    width: calc(3 * (100% - 3 * 2rem)/4);
+}
