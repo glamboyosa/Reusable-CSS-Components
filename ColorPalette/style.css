@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    color: #000;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.color {
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.color-orange__dark {
+    background-color: #e25822;
+}
+
+.color-orange__light {
+    background-color: #e25822;
+}
+
+.color-green__dark {
+    background-color: #28b485;
+}
+
+.color-green__light {
+    background-color: #7ed56f;
+}
+
+.color-yellow__dark {
+    background-color: #ffb900;
+}
+
+.color-yellow__light {
+    background-color: #fac635;
+}
+
+.color-green-light {
+    background-color: #7ed56f;
+
+}
