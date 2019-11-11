@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.card {
+    height: 30rem;
+    perspective: 1200rem;
+    position: relative;
+}
+
+.card__side {
+    height: 30rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .6s;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 3rem 4rem rgba(59, 59, 59, 0.7);
+}
+
+.card__side--front {
+    background-color: red;
+    transform: rotateY(0);
+}
+
+.card__side:hover .card__side--front {
+    transform: rotateY(-180deg);
+}
+
+.card__side--back {
+    background-color: rebeccapurple;
+    transform: rotateY(180deg);
+}
+
+.card__side:hover .card__side--back {
+    transform: rotateY(0);
+}
