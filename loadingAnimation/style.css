@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.center-text {
+    margin-top: 30rem;
+    margin-left: 50%;
+}
+
+.loading {
+    background-color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    clip-path: circle(50% at 50% 50%);
+    display: inline-block;
+}
+
+.loading__spinner--1 {
+    animation: animateCircle 1s infinite;
+}
+
+.loading__spinner--2 {
+    animation: animateCircle 1s .2s infinite;
+
+}
+
+.loading__spinner--3 {
+    animation: animateCircle 1s .3s infinite;
+}
+
+@keyframes animateCircle {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

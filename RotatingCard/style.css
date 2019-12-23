@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    box-sizing: border-box;
+}
+
 .card {
     height: 30rem;
     perspective: 1200rem;
