@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    height: 200vh;
+    /* comment out height, it's just for testing purposes */
+}
+
+.sidebar {
+    position: sticky;
+    height: 100vh;
+    background-color: red;
+    width: 10%;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
+
+
+.main-content {
+    padding: 1rem 2rem;
+
+}
