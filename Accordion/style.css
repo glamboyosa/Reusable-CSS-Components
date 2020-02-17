@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* used to "center" the content" */
+.accordion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion__body {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox:checked~.accordion__content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.checkbox:checked+.accordion__control::before {
+    content: '-';
+}
+
+.accordion__control {
+    position: relative;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.accordion__control::before {
+    /* ideally leave content as an empty string and use a background image*/
+    content: '+';
+    color: blue;
+    font-size: 3rem;
+    position: absolute;
+    /* right might need to be adjusted based on preference*/
+    right: -30rem;
+    font-weight: normal;
+    top: 0;
+    transition: all .2s;
+}
+
+
+.accordion__content {
+    margin-top: 1rem;
+    font-size: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
+}
