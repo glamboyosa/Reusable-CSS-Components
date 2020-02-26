@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.toggle__checkbox {
+    width: 0;
+}
+
+.toggle {
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2.4rem;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.toggle::before {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    clip-path: circle(50% at 50% 50%);
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    transition: all .2s;
+}
+
+.toggle__checkbox:checked+.toggle::before {
+    transform: translateX(5rem);
+}
